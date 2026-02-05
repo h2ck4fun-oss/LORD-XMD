@@ -1,0 +1,69 @@
+{
+  "name": "LORD-XMD",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "node index.js",
+    "start": "node index.js",
+    "bot": "pm2 start index.js --attach --max-memory-restart 490M",
+    "c": "tsc",
+    "heroku-prebuild": "rm -rf node_modules"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
+  "overrides": {
+    "jimp": "0.16.13"
+  },
+  "keywords": [
+    "bot",
+    "Baileys",
+    "BWM-XMD",
+    "whatsapp",
+    "whatsapp-bot",
+    "LORDRAMON"
+  ],
+  "author": "LORDRAMON",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "latest",
+    "@hapi/boom": "latest",
+    "@whiskeysockets/baileys": "npm:xmd-baileys@latest",
+    "adm-zip": "latest",
+    "axios": "^1.2.5",
+    "body-parser": "latest",
+    "buffer": "^6.0.3",
+    "chalk": "^4.1.2",
+    "cheerio": "latest",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "ffmpeg-static": "latest",
+    "file-type": "17.1.6",
+    "fluent-ffmpeg": "latest",
+    "form-data": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "gifted-btns": "latest",
+    "jimp": "0.16.13",
+    "mime-types": "^2.1.35",
+    "node-fetch": "^3.3.2",
+    "os": "latest",
+    "path": "latest",
+    "performance-now": "^2.1.0",
+    "pg": "^8.17.2",
+    "pg-hstore": "^2.3.4",
+    "pino": "^7.0.5",
+    "pm2": "latest",
+    "sequelize": "latest",
+    "sharp": "^0.32.6",
+    "sqlite3": "latest",
+    "stream": "latest",
+    "util": "latest",
+    "wa-sticker-formatter": "latest",
+    "xmd-baileys": "latest"
+  }
+}
